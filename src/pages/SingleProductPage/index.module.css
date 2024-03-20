@@ -1,0 +1,35 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.product img {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+}
+
+.product > div p:nth-child(3) {
+    margin: 15px 0;
+    background-color: orange;
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.product > div p:nth-child(4) {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.product > div > div {
+    background-color: darkkhaki;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+}

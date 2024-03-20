@@ -1,0 +1,35 @@
+.product_card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-size: 19px;
+    border: 3px solid darkkhaki;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+}
+
+.product_card img {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.product_card p:last-child {
+    font-weight: 800;
+}
+
+.product_card a {
+    color: black;
+}
+
+.product_card  div {
+    background-color: darkkhaki;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}

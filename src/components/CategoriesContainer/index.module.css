@@ -1,0 +1,7 @@
+.categories_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+    width: 500px;
+}

@@ -1,0 +1,37 @@
+.cart_item {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+    border: 3px solid darkkhaki;
+    border-radius: 8px;
+    width: 1000px;
+    position: relative;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.cart_item img {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.cart_item > div {
+    display: flex;
+    gap: 5px;
+}
+
+.delete_item {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.cart_item p:nth-child(3) {
+    font-weight: 800;
+}
+
+.incr_item, .decr_item {
+    cursor: pointer;
+}
